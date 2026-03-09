@@ -40,10 +40,14 @@ export default function Hero() {
                             View Projects
                             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </Link>
-                        <button className="px-8 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium hover:bg-white/10 transition-all flex items-center gap-2">
+                        <a
+                            href="/naimisha-cv.pdf"
+                            download="Naimisha_CV.pdf"
+                            className="px-8 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium hover:bg-white/10 transition-all flex items-center gap-2 cursor-pointer"
+                        >
                             <Download className="w-4 h-4" />
                             Download Resume
-                        </button>
+                        </a>
                         <Link
                             href="#contact"
                             className="px-8 py-3 rounded-full border border-accent/30 text-accent font-medium hover:bg-accent/10 transition-all flex items-center gap-2"

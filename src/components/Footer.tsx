@@ -30,10 +30,14 @@ export default function Footer() {
                         </Link>
                     </div>
 
-                    <button className="flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 text-white/60 text-sm hover:bg-white/5 transition-all">
+                    <a
+                        href="/naimisha-cv.pdf"
+                        download="Naimisha_CV.pdf"
+                        className="flex items-center gap-2 px-6 py-2 rounded-full border border-white/10 text-white/60 text-sm hover:bg-white/5 transition-all cursor-pointer"
+                    >
                         <Download className="w-4 h-4" />
                         Download Resume
-                    </button>
+                    </a>
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-white/20 text-xs">
